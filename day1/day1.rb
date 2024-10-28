@@ -31,4 +31,3 @@ File.foreach('input.txt') do |line|
 end
 
 puts "The total is #{sum}"
-#hot fix
