@@ -33,7 +33,7 @@ end
 
 total_power_sum = 0
 
-File.foreach("day2/test.txt") do |line|
+File.foreach("adventofcode2023/day2/test.txt") do |line|
   if line =~ /Game (\d+): (.+)/
     sets = $2.split("; ")
 

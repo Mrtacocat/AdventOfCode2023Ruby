@@ -57,7 +57,7 @@ class Day3Part1
   end
 end
 
-lines = File.readlines('day3/input.txt').map(&:chomp)
+lines = File.readlines('adventofcode2023/day3/input.txt').map(&:chomp)
 
 result_part_one = Day3Part1.part_one(lines)
 puts "Total sum for Part One: #{result_part_one}"

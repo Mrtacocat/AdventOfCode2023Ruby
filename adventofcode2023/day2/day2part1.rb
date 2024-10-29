@@ -26,7 +26,7 @@ end
 # Read the input file and process games
 possible_game_ids_sum = 0
 
-File.foreach("day2/input.txt") do |line|
+File.foreach("adventofcode2023/day2/input.txt") do |line|
   if line =~ /Game (\d+): (.+)/
     game_id = $1.to_i
     sets = $2.split('; ')

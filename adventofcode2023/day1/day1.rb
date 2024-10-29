@@ -26,7 +26,7 @@ end
 
 sum = 0
 
-File.foreach('input.txt') do |line|
+File.foreach('adventofcode2023/day1/input.txt') do |line|
   sum += extracted_digit_from_string(line.strip)
 end
 
